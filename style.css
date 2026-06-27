@@ -1,0 +1,29 @@
+div{
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   background-color: #4dff; 
+   border: 3px solid black;
+   margin: 20px;
+   display: inline-block;
+}
+#static{
+   background-color: orange;
+   position: static;
+   top: 100px;
+   left: 100px;
+}
+
+#relative{
+   background-color: orange;
+   position: relative;
+   top: 100px;
+   left: 100px;
+}
+
+#absolute{
+    background-color: orange;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+}
